@@ -81,16 +81,16 @@
 			<key>name</key>
 			<string>string.quoted.double.chapel</string>
 			<key>patterns</key>
-					<array>
-							<dict>
-								<key>include</key>
-								<string>#string_escaped_char</string>
-							</dict>
-							<dict>
-								<key>include</key>
-								<string>#string_placeholder</string>
-							</dict>
-				 </array>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#string_escaped_char</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#string_placeholder</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -269,9 +269,9 @@
 		<dict>
 			<key>match</key>
 			<string>(?x)\b(
-              	abs | max | min | sqrt | write | writeln | read | readln | open | close |
+              	abs | max | min | sqrt | write | writeln | read | readln | open | close | 
 				exit
-
+			
 			)\b</string>
 			<key>name</key>
 			<string>support.function.builtin.chapel</string>
