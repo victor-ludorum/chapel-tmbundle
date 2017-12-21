@@ -368,7 +368,7 @@
 		<key>illegal_names</key>
 		<dict>
 			<key>match</key>
-			<string>\b(align|as|atomic|begin|break|by|catch|class|cobegin|coforall|continue|delete|dmapped|do|else|enum|except|export|extern|for|forall|if|index|inline|in|iter|label|lambda|let|local|module|new|noinit|on|only|otherwise|pragma|private|proc|public|record|reduce|require|return|scan|select|serial|then|throw|throws|try|union|use|var|when|where|while|with|yield|zip)\b</string>
+			<string>\b(align|as|atomic|begin|break|by|catch|class|cobegin|coforall|continue|delete|dmapped|do|else|enum|except|export|extern|for|forall|if|index|inline|in|inout|iter|label|lambda|let|local|module|new|noinit|on|only|otherwise|out|pragma|private|proc|public|record|reduce|ref|require|return|scan|select|serial|then|throw|throws|try|union|use|var|when|where|while|with|yield|zip)\b</string>
 			<key>name</key>
 			<string>invalid.illegal.name.chapel</string>
 		</dict>
